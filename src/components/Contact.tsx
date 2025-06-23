@@ -3,7 +3,7 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
-import { Phone, Mail, Map-pin } from 'lucide-react';
+import { Phone, Mail, MapPin } from 'lucide-react';
 
 const Contact = () => {
   return (
@@ -56,7 +56,7 @@ const Contact = () => {
               <Card className="border-none shadow-sm">
                 <CardContent className="p-6 flex items-center">
                   <div className="w-12 h-12 bg-hotel-gold rounded-full flex items-center justify-center mr-4">
-                    <Map-pin className="w-6 h-6 text-hotel-navy" />
+                    <MapPin className="w-6 h-6 text-hotel-navy" />
                   </div>
                   <div>
                     <h4 className="font-inter font-semibold text-hotel-navy">Location</h4>
